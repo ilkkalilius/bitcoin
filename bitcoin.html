@@ -13,6 +13,7 @@
     h2 { color: #aaa; font-size: 1.1rem; margin-top: 2.5rem; }
     .subtitle { color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
     img { width: 100%; border-radius: 8px; margin-top: 0.5rem; background: #fff; }
+    iframe { width: 100%; height: 520px; border: none; border-radius: 8px; display: block; margin-top: 0.5rem; }
     footer { margin-top: 3rem; color: #555; font-size: 0.8rem; text-align: center; }
   </style>
 </head>
@@ -22,13 +23,13 @@
   <p class="subtitle">Spot Bitcoin ETF net flows vs BTC price &mdash; updated daily</p>
 
   <h2>Daily Net Flows vs BTC Price</h2>
-  <img src="daily_flows.png" alt="Daily ETF flows vs BTC price">
+  <iframe src="daily_flows_chart.html" loading="lazy" title="Daily ETF flows vs BTC price"></iframe>
 
   <h2>Cumulative Net Flows vs BTC Price</h2>
-  <img src="cumulative_flows.png" alt="Cumulative ETF flows vs BTC price">
+  <iframe src="cumulative_flows_chart.html" loading="lazy" title="Cumulative ETF flows vs BTC price"></iframe>
 
   <h2>BTC Price with 50-Day and 200-Day EMA</h2>
-  <img src="btc_ema.png" alt="BTC price with EMAs">
+  <iframe src="btc_ema_chart.html" loading="lazy" title="BTC price with EMAs"></iframe>
 
   <footer>Data: Farside Investors &amp; Yahoo Finance</footer>
 </body>
